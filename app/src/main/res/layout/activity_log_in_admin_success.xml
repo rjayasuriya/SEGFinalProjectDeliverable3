@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInAdminSuccess">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="Deprecated,MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="126dp">
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="354dp"
+            android:layout_height="195dp"
+            android:layout_x="30dp"
+
+            android:layout_y="100dp"
+            android:text="Log In Success screen for Admin"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            tools:ignore="Invalid"
+
+            />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="16dp"
+            android:layout_y="554dp"
+            android:text="@string/View_ALL_Admin"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="215dp"
+            android:layout_y="552dp"
+            android:text="@string/View_ALL_Students"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="-10dp"
+            android:layout_y="604dp"
+            android:text="@string/View_ALL_Instructors"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="221dp"
+            android:layout_y="605dp"
+            android:text="@string/View_ALL_Classes"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/ClassNameInput"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_x="277dp"
+            android:layout_y="453dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ClassCodeInput"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_x="274dp"
+            android:layout_y="503dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/ClassName"
+            android:layout_width="176dp"
+            android:layout_height="39dp"
+            android:layout_x="15dp"
+            android:layout_y="452dp"
+            android:text="Enter Class Name (or Class ID if changing ID):" />
+
+        <TextView
+            android:id="@+id/ClassCodeOrUsernameOrID"
+            android:layout_width="283dp"
+            android:layout_height="48dp"
+            android:layout_x="0dp"
+            android:layout_y="495dp"
+            android:text="Enter Class Code or user ID or username (or Class Name if changing name):" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="408dp"
+            android:text="@string/Create_Class" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="362dp"
+            android:text="@string/Change_Class_Name" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="213dp"
+            android:layout_y="401dp"
+            android:text="@string/Change_Class_Code" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="181dp"
+            android:layout_height="36dp"
+            android:layout_x="210dp"
+            android:layout_y="362dp"
+            android:text="@string/Delete_Student" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="215dp"
+            android:layout_y="309dp"
+            android:text="@string/Delete_Admin" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_x="17dp"
+            android:layout_y="324dp"
+            android:text="@string/Delete_Class" />
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_x="215dp"
+            android:layout_y="260dp"
+            android:text="@string/Delete_Instructor"/>
+
+        <TextView
+            android:id="@+id/display2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="22dp"
+            android:layout_y="44dp"
+            android:text="" />
+
+
+    </AbsoluteLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

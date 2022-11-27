@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInInstructorSuccess">
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="Deprecated,MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="126dp">
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="354dp"
+            android:layout_height="195dp"
+            android:layout_x="30dp"
+            android:layout_y="100dp"
+            android:text="Log In Success screen for Instructor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="Invalid"
+
+            />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="229dp"
+            android:layout_y="353dp"
+            android:text="@string/View_ALL_Classes"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="408dp"
+            android:text="@string/Search_Class" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="362dp"
+            android:text="@string/Unassign_From_Class" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="213dp"
+            android:layout_y="401dp"
+            android:text="@string/Assign_To_Class" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="552dp"
+            android:text="@string/Set_New_Course_Days"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="16dp"
+            android:layout_y="605dp"
+            android:text="@string/Set_New_Course_Hours"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="236dp"
+            android:layout_y="554dp"
+            android:text="@string/Set_New_Capacity"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/ClassNameInput"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_x="306dp"
+            android:layout_y="453dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/ClassCodeInput"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_x="274dp"
+            android:layout_y="503dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/ClassName"
+            android:layout_width="273dp"
+            android:layout_height="39dp"
+            android:layout_x="15dp"
+            android:layout_y="452dp"
+            android:text="Enter Class Name (or new Course Days/new Hours/new capacity/new description):" />
+
+        <TextView
+            android:id="@+id/ClassCodeOrUsernameOrID"
+            android:layout_width="283dp"
+            android:layout_height="48dp"
+            android:layout_x="0dp"
+            android:layout_y="495dp"
+            android:text="Enter Class Code or user ID or username (or Class Name if changing name):" />
+        <TextView
+            android:id="@+id/display2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="22dp"
+            android:layout_y="44dp"
+            android:text="" />
+
+    </AbsoluteLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

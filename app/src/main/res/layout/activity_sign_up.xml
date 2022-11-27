@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="Deprecated,MissingConstraints">
+
+
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up screen"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_x="100dp"
+            android:layout_y="325dp"
+
+            tools:ignore="Invalid"
+
+            />
+        <Button
+            android:id="@+id/btn0"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/Sign_Up_As_Admin"
+            android:layout_x="100dp"
+            android:layout_y="350dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/Sign_Up_As_Student"
+            android:layout_x="100dp"
+            android:layout_y="450dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/Sign_Up_As_Instructor"
+            android:layout_x="100dp"
+            android:layout_y="550dp"
+            tools:ignore="MissingConstraints" />
+    </AbsoluteLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
